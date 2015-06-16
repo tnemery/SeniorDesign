@@ -6,10 +6,10 @@ using UnityEngine;
 using System.Collections;
 
 public class SendMail : MonoBehaviour {
-	public string sender = "beaverstrides@gmail.com";
+	public string sender = "";
 	public string receiver = "";
-	public string password = "L0vetoWalk";
-	public string smtpHost = "smtp.gmail.com";
+	public string password = "";
+	public string smtpHost = "";
 	private string msgSub = "";
 	private string msgBod = "";
 	private GameObject User;
